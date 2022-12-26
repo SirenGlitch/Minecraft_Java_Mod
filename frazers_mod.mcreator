@@ -1,0 +1,44 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_block"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.frz_first_mod.test_block": "Rubik\u0027s Cube",
+      "block.frazers_mod.test_block": "Rubik\u0027s Cube"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "frazers_mod",
+    "modName": "Frazer\u0027s Mod",
+    "version": "1.0.0",
+    "description": "I made this for fun.",
+    "author": "Frazer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.frazersmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

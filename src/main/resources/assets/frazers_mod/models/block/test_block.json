@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "frazers_mod:blocks/yellow",
+    "up": "frazers_mod:blocks/white",
+    "north": "frazers_mod:blocks/green",
+    "east": "frazers_mod:blocks/orange",
+    "south": "frazers_mod:blocks/blue",
+    "west": "frazers_mod:blocks/red",
+    "particle": "frazers_mod:blocks/yellow"
+  }
+}
