@@ -18,5 +18,9 @@ public class FrazersModModPaintings {
 		event.getRegistry().register(new Motive(48, 48).setRegistryName("siren_big"));
 		event.getRegistry().register(new Motive(32, 32).setRegistryName("siren"));
 		event.getRegistry().register(new Motive(16, 16).setRegistryName("siren_smol"));
+		event.getRegistry().register(new Motive(32, 32).setRegistryName("mr_pineapple"));
+		event.getRegistry().register(new Motive(64, 64).setRegistryName("mr_pineapple_xl"));
+		event.getRegistry().register(new Motive(48, 48).setRegistryName("mr_pineapple_big"));
+		event.getRegistry().register(new Motive(16, 16).setRegistryName("mr_pineapple_smol"));
 	}
 }

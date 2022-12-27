@@ -39,6 +39,62 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "siren_smol"
+    },
+    {
+      "name": "MrPineapple",
+      "type": "painting",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_pineapple"
+    },
+    {
+      "name": "MrPineappleXL",
+      "type": "painting",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_pineapple_xl"
+    },
+    {
+      "name": "MrPineappleBig",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_pineapple_big"
+    },
+    {
+      "name": "MrPineappleSmol",
+      "type": "painting",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_pineapple_smol"
+    },
+    {
+      "name": "ColaEaten",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cola",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola"
     }
   ],
   "variable_elements": [],
@@ -46,7 +102,8 @@
   "language_map": {
     "en_us": {
       "block.frz_first_mod.test_block": "Rubik\u0027s Cube",
-      "block.frazers_mod.test_block": "Rubik\u0027s Cube"
+      "block.frazers_mod.test_block": "Rubik\u0027s Cube",
+      "item.frazers_mod.cola": "Cola"
     }
   },
   "foldersRoot": {
