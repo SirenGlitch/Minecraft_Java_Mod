@@ -7,6 +7,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_block"
+    },
+    {
+      "name": "SirenXL",
+      "type": "painting",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siren_xl"
+    },
+    {
+      "name": "SirenBig",
+      "type": "painting",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siren_big"
+    },
+    {
+      "name": "Siren",
+      "type": "painting",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siren"
+    },
+    {
+      "name": "SirenSmol",
+      "type": "painting",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "siren_smol"
     }
   ],
   "variable_elements": [],
