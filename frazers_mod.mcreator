@@ -95,15 +95,35 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cola"
+    },
+    {
+      "name": "CallMeDrill",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "call_me_drill"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "callmedrilmusic",
+      "files": [
+        "carly_rae_jepsen_-_call_me_maybe__official_drill_remix__prod__dexter"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.callmedrilmusic": "",
       "block.frz_first_mod.test_block": "Rubik\u0027s Cube",
+      "item.frazers_mod.call_me_drill.desc": "Call Me Maybe- Drill Remix",
       "block.frazers_mod.test_block": "Rubik\u0027s Cube",
-      "item.frazers_mod.cola": "Cola"
+      "item.frazers_mod.cola": "Cola",
+      "item.frazers_mod.call_me_drill": "Drill Disc"
     }
   },
   "foldersRoot": {
@@ -115,8 +135,8 @@
     "modName": "Frazer\u0027s Mod",
     "version": "1.0.0",
     "description": "I made this for fun.",
-    "author": "Frazer, MCreator",
-    "websiteURL": "https://mcreator.net",
+    "author": "Frazer",
+    "websiteURL": "https://github.com/SirenGlitch/Minecraft_Java_Mod",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,

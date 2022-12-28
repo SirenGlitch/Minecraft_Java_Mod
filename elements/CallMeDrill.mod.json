@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Drill Disc",
+    "texture": "record_callmedrill",
+    "description": "Call Me Maybe- Drill Remix",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:callmedrilmusic"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}
