@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "sugar",
     "customModelName": "Normal",
-    "name": "Cola",
-    "rarity": "COMMON",
+    "name": "§o Sugar",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "FOOD"
     },

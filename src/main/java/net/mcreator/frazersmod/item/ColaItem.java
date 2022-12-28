@@ -18,7 +18,7 @@ import java.util.List;
 
 public class ColaItem extends Item {
 	public ColaItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_FOOD).stacksTo(64).rarity(Rarity.RARE)
 				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).alwaysEat()
 
 						.build()));
