@@ -103,6 +103,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "call_me_drill"
+    },
+    {
+      "name": "ColaTrade",
+      "type": "villagertrade",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola_trade"
     }
   ],
   "variable_elements": [],

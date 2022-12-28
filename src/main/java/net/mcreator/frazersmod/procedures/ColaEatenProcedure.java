@@ -12,6 +12,6 @@ public class ColaEatenProcedure {
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 1800, 1));
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 200, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 80, 1));
 	}
 }
