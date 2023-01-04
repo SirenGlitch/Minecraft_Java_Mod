@@ -111,6 +111,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cola_trade"
+    },
+    {
+      "name": "TestBiome",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_biome"
     }
   ],
   "variable_elements": [],
@@ -130,6 +138,7 @@
       "block.frz_first_mod.test_block": "Rubik\u0027s Cube",
       "item.frazers_mod.call_me_drill.desc": "Call Me Maybe- Drill Remix",
       "block.frazers_mod.test_block": "Rubik\u0027s Cube",
+      "biome.frazers_mod.test_biome": "Pumpkin",
       "item.frazers_mod.cola": "§o Sugar",
       "item.frazers_mod.call_me_drill": "Drill Disc"
     }

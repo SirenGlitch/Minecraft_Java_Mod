@@ -10,7 +10,7 @@ public class ColaEatenProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 1200, 1));
+			_entity.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 600, 1));
 		if (entity instanceof LivingEntity _entity)
 			_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 80, 1));
 	}

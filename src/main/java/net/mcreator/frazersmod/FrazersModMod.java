@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.frazersmod.init.FrazersModModItems;
 import net.mcreator.frazersmod.init.FrazersModModBlocks;
+import net.mcreator.frazersmod.init.FrazersModModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -47,6 +48,8 @@ public class FrazersModMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		FrazersModModBlocks.REGISTRY.register(bus);
 		FrazersModModItems.REGISTRY.register(bus);
+
+		FrazersModModBiomes.REGISTRY.register(bus);
 
 	}
 
