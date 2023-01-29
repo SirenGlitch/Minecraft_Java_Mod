@@ -119,6 +119,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_biome"
+    },
+    {
+      "name": "HotWheels",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_wheels"
+    },
+    {
+      "name": "MakeHotWheels",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "make_hot_wheels"
     }
   ],
   "variable_elements": [],
@@ -136,6 +152,7 @@
     "en_us": {
       "subtitles.callmedrilmusic": "",
       "block.frz_first_mod.test_block": "Rubik\u0027s Cube",
+      "block.frazers_mod.hot_wheels": "Hot Wheels",
       "item.frazers_mod.call_me_drill.desc": "Call Me Maybe- Drill Remix",
       "block.frazers_mod.test_block": "Rubik\u0027s Cube",
       "biome.frazers_mod.test_biome": "Pumpkin",

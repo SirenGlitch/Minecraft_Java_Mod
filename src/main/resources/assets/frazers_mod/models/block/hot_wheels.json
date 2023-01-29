@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "frazers_mod:blocks/hotwheels",
+    "particle": "frazers_mod:blocks/hotwheels"
+  }
+}
