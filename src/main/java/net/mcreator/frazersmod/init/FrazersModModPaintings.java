@@ -4,23 +4,22 @@
  */
 package net.mcreator.frazersmod.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
-import net.minecraft.world.entity.decoration.Motive;
+import net.minecraft.world.entity.decoration.PaintingVariant;
+import net.minecraft.core.registries.Registries;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+import net.mcreator.frazersmod.FrazersModMod;
+
 public class FrazersModModPaintings {
-	@SubscribeEvent
-	public static void registerMotives(RegistryEvent.Register<Motive> event) {
-		event.getRegistry().register(new Motive(64, 64).setRegistryName("siren_xl"));
-		event.getRegistry().register(new Motive(48, 48).setRegistryName("siren_big"));
-		event.getRegistry().register(new Motive(32, 32).setRegistryName("siren"));
-		event.getRegistry().register(new Motive(16, 16).setRegistryName("siren_smol"));
-		event.getRegistry().register(new Motive(32, 32).setRegistryName("mr_pineapple"));
-		event.getRegistry().register(new Motive(64, 64).setRegistryName("mr_pineapple_xl"));
-		event.getRegistry().register(new Motive(48, 48).setRegistryName("mr_pineapple_big"));
-		event.getRegistry().register(new Motive(16, 16).setRegistryName("mr_pineapple_smol"));
-	}
+	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(Registries.PAINTING_VARIANT, FrazersModMod.MODID);
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> SIREN_XL = REGISTRY.register("siren_xl", () -> new PaintingVariant(64, 64));
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> SIREN_BIG = REGISTRY.register("siren_big", () -> new PaintingVariant(48, 48));
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> SIREN = REGISTRY.register("siren", () -> new PaintingVariant(32, 32));
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> SIREN_SMOL = REGISTRY.register("siren_smol", () -> new PaintingVariant(16, 16));
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> MR_PINEAPPLE = REGISTRY.register("mr_pineapple", () -> new PaintingVariant(32, 32));
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> MR_PINEAPPLE_XL = REGISTRY.register("mr_pineapple_xl", () -> new PaintingVariant(64, 64));
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> MR_PINEAPPLE_BIG = REGISTRY.register("mr_pineapple_big", () -> new PaintingVariant(48, 48));
+	public static final DeferredHolder<PaintingVariant, PaintingVariant> MR_PINEAPPLE_SMOL = REGISTRY.register("mr_pineapple_smol", () -> new PaintingVariant(16, 16));
 }

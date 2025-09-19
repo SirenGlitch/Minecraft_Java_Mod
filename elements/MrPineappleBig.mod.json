@@ -1,9 +1,11 @@
 {
-  "_fv": 34,
+  "_fv": 60,
   "_type": "painting",
   "definition": {
     "texture": "img_20221227_171029_bokeh.png",
     "width": 48,
-    "height": 48
+    "height": 48,
+    "title": "Mr Pineapple Big",
+    "author": "Unknown"
   }
 }

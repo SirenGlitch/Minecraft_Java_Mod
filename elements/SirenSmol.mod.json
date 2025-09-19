@@ -1,9 +1,11 @@
 {
-  "_fv": 34,
+  "_fv": 60,
   "_type": "painting",
   "definition": {
     "texture": "sirenglitch.png",
     "width": 16,
-    "height": 16
+    "height": 16,
+    "title": "Siren Smol",
+    "author": "Unknown"
   }
 }

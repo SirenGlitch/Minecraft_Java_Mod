@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "frazers_mod:items/hotwheels"
-  }
+    "layer0": "frazers_mod:item/hotwheels"
+  },
+  "render_type": "translucent"
 }

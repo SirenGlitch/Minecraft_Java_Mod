@@ -1,13 +1,13 @@
 
 /*
-*    MCreator note: This file will be REGENERATED on each build.
+*	MCreator note: This file will be REGENERATED on each build.
 */
 package net.mcreator.frazersmod.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.village.VillagerTradesEvent;
-import net.minecraftforge.common.BasicItemListing;
+import net.neoforged.neoforge.event.village.VillagerTradesEvent;
+import net.neoforged.neoforge.common.BasicItemListing;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;

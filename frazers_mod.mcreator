@@ -6,7 +6,16 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test_block"
+      "registry_name": "test_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/frazers_mod/loot_tables/blocks/test_block.json",
+          "src/main/resources/assets/frazers_mod/blockstates/test_block.json",
+          "src/main/resources/assets/frazers_mod/models/item/test_block.json",
+          "src/main/java/net/mcreator/frazersmod/block/TestBlockBlock.java",
+          "src/main/resources/assets/frazers_mod/models/block/test_block.json"
+        ]
+      }
     },
     {
       "name": "SirenXL",
@@ -14,7 +23,10 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siren_xl"
+      "registry_name": "siren_xl",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "SirenBig",
@@ -22,7 +34,10 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siren_big"
+      "registry_name": "siren_big",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Siren",
@@ -30,7 +45,10 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siren"
+      "registry_name": "siren",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "SirenSmol",
@@ -38,7 +56,10 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "siren_smol"
+      "registry_name": "siren_smol",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "MrPineapple",
@@ -46,7 +67,10 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mr_pineapple"
+      "registry_name": "mr_pineapple",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "MrPineappleXL",
@@ -54,7 +78,10 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mr_pineapple_xl"
+      "registry_name": "mr_pineapple_xl",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "MrPineappleBig",
@@ -62,7 +89,10 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mr_pineapple_big"
+      "registry_name": "mr_pineapple_big",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "MrPineappleSmol",
@@ -70,7 +100,10 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mr_pineapple_smol"
+      "registry_name": "mr_pineapple_smol",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "ColaEaten",
@@ -80,6 +113,9 @@
       "locked_code": false,
       "registry_name": "cola_eaten",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/frazersmod/procedures/ColaEatenProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -94,7 +130,13 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cola"
+      "registry_name": "cola",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/frazersmod/item/ColaItem.java",
+          "src/main/resources/assets/frazers_mod/models/item/cola.json"
+        ]
+      }
     },
     {
       "name": "CallMeDrill",
@@ -102,7 +144,13 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "call_me_drill"
+      "registry_name": "call_me_drill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/frazers_mod/models/item/call_me_drill.json",
+          "src/main/java/net/mcreator/frazersmod/item/CallMeDrillItem.java"
+        ]
+      }
     },
     {
       "name": "ColaTrade",
@@ -110,7 +158,10 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cola_trade"
+      "registry_name": "cola_trade",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "TestBiome",
@@ -118,7 +169,14 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "test_biome"
+      "registry_name": "test_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/frazers_mod/worldgen/biome/test_biome.json",
+          "src/main/resources/data/frazers_mod/worldgen/configured_feature/test_biome_tree.json",
+          "src/main/resources/data/frazers_mod/worldgen/placed_feature/test_biome_tree.json"
+        ]
+      }
     },
     {
       "name": "HotWheels",
@@ -126,7 +184,16 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hot_wheels"
+      "registry_name": "hot_wheels",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/frazers_mod/models/item/hot_wheels.json",
+          "src/main/java/net/mcreator/frazersmod/block/HotWheelsBlock.java",
+          "src/main/resources/data/frazers_mod/loot_tables/blocks/hot_wheels.json",
+          "src/main/resources/assets/frazers_mod/models/block/hot_wheels.json",
+          "src/main/resources/assets/frazers_mod/blockstates/hot_wheels.json"
+        ]
+      }
     },
     {
       "name": "MakeHotWheels",
@@ -134,7 +201,12 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "make_hot_wheels"
+      "registry_name": "make_hot_wheels",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/frazers_mod/recipes/make_hot_wheels.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -148,16 +220,40 @@
       "subtitle": ""
     }
   ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:HotWheels"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:CallMeDrill"
+    ]
+  },
   "language_map": {
     "en_us": {
-      "subtitles.callmedrilmusic": "",
-      "block.frz_first_mod.test_block": "Rubik\u0027s Cube",
-      "block.frazers_mod.hot_wheels": "Hot Wheels",
+      "painting.frazers_mod.mr_pineapple_xl.title": "Mr Pineapple XL",
       "item.frazers_mod.call_me_drill.desc": "Call Me Maybe- Drill Remix",
-      "block.frazers_mod.test_block": "Rubik\u0027s Cube",
-      "biome.frazers_mod.test_biome": "Pumpkin",
+      "painting.frazers_mod.siren_xl.author": "Unknown",
+      "painting.frazers_mod.mr_pineapple_big.author": "Unknown",
+      "painting.frazers_mod.mr_pineapple_smol.title": "Mr Pineapple Smol",
+      "painting.frazers_mod.siren_smol.author": "Unknown",
+      "painting.frazers_mod.mr_pineapple_smol.author": "Unknown",
       "item.frazers_mod.cola": "§o Sugar",
-      "item.frazers_mod.call_me_drill": "Drill Disc"
+      "subtitles.callmedrilmusic": "",
+      "painting.frazers_mod.mr_pineapple_xl.author": "Unknown",
+      "painting.frazers_mod.mr_pineapple.title": "Mr Pineapple",
+      "painting.frazers_mod.mr_pineapple_big.title": "Mr Pineapple Big",
+      "painting.frazers_mod.siren_smol.title": "Siren Smol",
+      "block.frazers_mod.hot_wheels": "Hot Wheels",
+      "item.frazers_mod.call_me_drill": "Drill Disc",
+      "painting.frazers_mod.siren_big.author": "Unknown",
+      "painting.frazers_mod.mr_pineapple.author": "Unknown",
+      "block.frz_first_mod.test_block": "Rubik\u0027s Cube",
+      "painting.frazers_mod.siren_xl.title": "Siren XL",
+      "block.frazers_mod.test_block": "Rubik\u0027s Cube",
+      "painting.frazers_mod.siren.author": "Unknown",
+      "biome.frazers_mod.test_biome": "Pumpkin",
+      "painting.frazers_mod.siren_big.title": "Siren Big",
+      "painting.frazers_mod.siren.title": "Siren"
     }
   },
   "foldersRoot": {
@@ -172,16 +268,14 @@
     "author": "Frazer",
     "websiteURL": "https://github.com/SirenGlitch/Minecraft_Java_Mod",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.18.2",
+    "currentGenerator": "neoforge-1.20.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.frazersmod",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.mcreator.frazersmod"
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202400118518
 }

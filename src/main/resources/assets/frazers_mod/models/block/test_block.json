@@ -1,12 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "frazers_mod:blocks/yellow",
-    "up": "frazers_mod:blocks/white",
-    "north": "frazers_mod:blocks/green",
-    "east": "frazers_mod:blocks/orange",
-    "south": "frazers_mod:blocks/blue",
-    "west": "frazers_mod:blocks/red",
-    "particle": "frazers_mod:blocks/yellow"
-  }
+    "down": "frazers_mod:block/yellow",
+    "up": "frazers_mod:block/white",
+    "north": "frazers_mod:block/green",
+    "east": "frazers_mod:block/orange",
+    "south": "frazers_mod:block/blue",
+    "west": "frazers_mod:block/red",
+    "particle": "frazers_mod:block/yellow"
+  },
+  "render_type": "solid"
 }

@@ -1,25 +1,32 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[2,)"
 license="Academic Free License v3.0"
 
 [[mods]]
 modId="frazers_mod"
 version="1.0.0"
 displayName="Frazer's Mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://github.com/SirenGlitch/Minecraft_Java_Mod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Frazer"
-description='''
-I made this for fun.
-'''
+description="I made this for fun."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
 
 [[dependencies.frazers_mod]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.18.2]"
+    modId="neoforge"
+    type="required"
+    versionRange="[20.4.223,)"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.frazers_mod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.4]"
+    ordering="NONE"
+    side="BOTH"
 
 
 

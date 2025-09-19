@@ -4,26 +4,16 @@
  */
 package net.mcreator.frazersmod.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
 
-import java.util.Map;
-import java.util.HashMap;
+import net.mcreator.frazersmod.FrazersModMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class FrazersModModSounds {
-	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
-	static {
-		REGISTRY.put(new ResourceLocation("frazers_mod", "callmedrilmusic"), new SoundEvent(new ResourceLocation("frazers_mod", "callmedrilmusic")));
-	}
-
-	@SubscribeEvent
-	public static void registerSounds(RegistryEvent.Register<SoundEvent> event) {
-		for (Map.Entry<ResourceLocation, SoundEvent> sound : REGISTRY.entrySet())
-			event.getRegistry().register(sound.getValue().setRegistryName(sound.getKey()));
-	}
+	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, FrazersModMod.MODID);
+	public static final DeferredHolder<SoundEvent, SoundEvent> CALLMEDRILMUSIC = REGISTRY.register("callmedrilmusic", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("frazers_mod", "callmedrilmusic")));
 }
